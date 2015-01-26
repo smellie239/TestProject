@@ -18,6 +18,6 @@ public abstract class Screen {
 
     public abstract void dispose();
 	
-	public abstract void close();
+	public abstract void exit();
 
 }
