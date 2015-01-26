@@ -7,4 +7,5 @@ public interface Audio {
     public Music newMusic (String filename);
     public Sound newSound (String filename);
 	public Sound oldSound (String filename);
+    public Sound oldMusic (String filename);
 }
