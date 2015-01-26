@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Pool<T> {
 
+    private boolean finished;
+
     public interface PoolObjectFactory<T> {
         public T createObject();
     }
